@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Contact</title>
+        <style>
+            form{
+                display: grid;
+                grid-template-columns: 10% 1fr;
+                grid-gap: 16px;
+            }
+            input{
+                width: 40%;
+            }
+            input[type="radio"]{
+                width: auto;
+            }
+            textarea{
+                width: 60%;
+            }
+        </style>
+    </head>
+    <body>
+    <fieldset>
+        <center><h1>Hubungi kami</h1></center>
+        
+    <div>
+        <ol type="1">
+            <li><strong>Kantor : </strong>Jl Sukajadi No 1 A Bandung</li>
+            <li><strong>Nomor Telepon : </strong>081678345987</li>
+            <li><strong>Email : </strong>bandungtempodoeloe@gmail.com</li>
+        </ol>
+    </div>
+        <center><h1>Kirimkan Pesan</h1></center>
+        <form>
+            <label for="nama"><strong>Nama Lengkap</strong></label>
+            <input type="text">
+            <label for="email"><strong>Email</strong></label>
+            <input type="text">    
+            <label ><Strong>Jenis Kelamin</Strong></label>
+            <p>
+            <input type="radio" name="gender" value="L" checked>Laki-Laki <br>
+            <input type="radio" name="gender" value="P">Perempuan <br>
+            </p>           
+            <label for="Pesan">Pesan Anda</label>
+            <textarea id="pesan" cols="30" rows="5"></textarea>          
+        </form>
+    <button type="submit" value="kirim data">  
+        <a href="index.html">Kembali Ke Index</a>
+    </fieldset>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+header{
+    background-color: white;
+}
+body{
+background-image: url("../img/pattern.jpg");   
+}
+section{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 95%;
+}
+div{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.top{
+    top: 20px;
+    right: 15px;
+    position: absolute;
+}
+.nafheadder{
+    font-size: 16px;
+    color: blue;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}
