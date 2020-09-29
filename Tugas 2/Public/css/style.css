@@ -1,5 +1,9 @@
 header{
     background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 body{
 background-image: url("../img/pattern.jpg");   
@@ -9,6 +13,8 @@ section{
     margin-right: auto;
     background-color: white;
     width: 95%;
+    margin-top: 60px;
+    margin-bottom: 55px;
 }
 div{
     padding-left: 3px;
@@ -20,15 +26,19 @@ div{
     position: absolute;
 }
 .nafheadder{
-    font-size: 16px;
+    font-size: 18px;
     color: blue;
+    padding-left: 10px;
 }
 footer{
     text-align: center;
     color: white;
     background-color: black;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     height: 50px;
     width: 100%;
+    left: 0;
+    right: 0;
+
 }
