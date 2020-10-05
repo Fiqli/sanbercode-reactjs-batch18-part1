@@ -2,7 +2,7 @@
 var l=1
 console.log("LOOPING PERTAMA")
 
-while (l<21){
+while (1<21){
     l++;
     if ((l%2) == 0) {
         console.log(l + " - " + "I love coding");
